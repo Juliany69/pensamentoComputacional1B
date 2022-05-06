@@ -11,6 +11,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* Aqui criamos as fontes usando fonts.google.com */
 
+body {
+    background-color: #F5F5F7;
+}
+
 .nav-div {
     background-color: rgba(0, 0, 0, 0.8);
     height: 2.75rem;
@@ -48,6 +52,7 @@
     font-weight: 400;
     font-size: 12px;
     padding: 4px 11px;
+    margin-left: 70%;
     cursor: pointer;
     transition: 500ms;
 }
@@ -60,14 +65,17 @@
 
 .div-nav-iphone {
     height: 2.75rem;
-    top: 0;
-    left: 0;
-    padding: 0 22px;
-    padding-top: 11px;
+    margin-top: 20px;
+    padding-left: 30px;
     border-bottom: solid;
     border-width: 0.1px;
 }
 
+.iphone-img {
+    width: 100%;
+    height: 600px;
+    object-fit: none;
+}
 
 .cell-name-a {
     font-family: 'Source Sans Pro', sans-serif;
@@ -86,11 +94,14 @@
     height: 2.75rem;
 }
 
+.chegou-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    margin-left: 50%; 
+    margin-top: 20px;
+}
+
 .all-text {
     font-family: 'Montserrat', sans-serif;
     margin: 22px;
-}
-
-.imgdoiphone {
-    heigh:30px:
 }
