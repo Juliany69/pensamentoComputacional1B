@@ -109,3 +109,13 @@ body {
 .vantagens-produto {
     list-style: square;
 }
+
+.finalizar-compra {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 45%;
+}
