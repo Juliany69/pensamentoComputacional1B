@@ -97,13 +97,15 @@ body {
 .chegou-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.6rem;
-    margin-left: 50%; 
     margin-top: 20px;
 }
 
 .all-text {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     margin: 22px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vantagens-produto {
@@ -118,4 +120,42 @@ body {
     text-decoration: none;
     color: #ffffff;
     margin-left: 45%;
+}
+
+.form-compra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.iphone-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.infos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.inputs {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.h2-subtitles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.input-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    border-radius: 10px;
 }
